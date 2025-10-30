@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weater Point</title>
+    <link  rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Weather Point</h1>
+        <div class="city-input">
+            <label for="city">City:</label>
+            <input type="text" class="text-input" id="cityInput" placeholder="Enter city here"/>
+            <button onclick="getWeather()"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <div class="weather-result" id="weatherResult"></div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
